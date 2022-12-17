@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 17, 2022 at 10:57 AM
+-- Generation Time: Dec 17, 2022 at 11:09 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -305,7 +305,7 @@ CREATE TABLE IF NOT EXISTS `shop_collections` (
 INSERT INTO `shop_collections` (`id`, `name`, `desc`, `img`, `up_date`) VALUES
 (4, 'Minimal Bedroom Black and White', 'Minimal Bedroom Black and White', 'collections/br4.jpg', '2022-12-16 16:21:19.202575'),
 (5, 'Living Room Modern Black', 'Living Room Modern Black', 'collections/lr4.jpg', '2022-12-16 16:22:07.739561'),
-(6, 'Study Room Design Black and White Modern', 'Study Room B&W Modern', 'collections/st1.webp', '2022-12-16 17:56:21.497094'),
+(6, 'Study Room B&W Modern', 'Study Room B&W Modern', 'collections/st1.webp', '2022-12-16 17:56:21.497094'),
 (7, 'Living Room Minimal White Stone', 'Living Room Minimal White Stone', 'collections/lr6.png', '2022-12-16 17:57:06.662481'),
 (8, 'Minimal Bedroom Modern White', 'Minimal Bedroom Modern White', 'collections/br2.jpg', '2022-12-16 18:01:04.063161');
 
@@ -348,13 +348,6 @@ CREATE TABLE IF NOT EXISTS `shop_items` (
   `up_date` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf32 COLLATE=utf32_bin;
-
---
--- Dumping data for table `shop_items`
---
-
-INSERT INTO `shop_items` (`id`, `name`, `desc`, `img`, `up_date`) VALUES
-(1, 'fasdjie', 'jf83jm83fj38j3f83jf38388fuj83', 'items/ipadpro.png', '2022-12-16 14:13:13.397787');
 
 --
 -- Constraints for dumped tables
