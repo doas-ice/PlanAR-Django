@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 17, 2022 at 11:09 AM
+-- Generation Time: Dec 17, 2022 at 11:42 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -281,7 +281,7 @@ CREATE TABLE IF NOT EXISTS `django_session` (
 --
 
 INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
-('pzqu6sn9jjuwa42h3lyclhqsw4xu76kx', '.eJxVjMsKwjAQRX8lzLoEE9u0ceneDxArYdKZPnwk0LS4EP_dFhR0cTf3nnue4HCeejcnHt1AsAMF2W_nsblyWAe6YOiibGKYxsHLFZGfNclDJL7tP-yfoMfUL2-jlNU-J81trqlq29Iyamu3VlHJlaeqVLZhU-SGNojKF6gZraHKKzbbZpXeOSXsOC2606kG5y4phm9bQyY2mdBLajjGWeDIIsSHuMWuYxJDEJiEj17WcD7D6w06RFGM:1p6Ezy:4gi5FmZy1WA6fhDsN0L1zass7UCUiBvUHo5urTxz8xE', '2022-12-30 17:59:54.100829');
+('vojhsikre9rzoaj60wr2v7obx82jgyie', 'e30:1p6UdF:T1lENgP3oZYSGmIFA2cFTi2o3YfBTjF-27CYGvtpStQ', '2022-12-31 10:41:29.952770');
 
 -- --------------------------------------------------------
 
@@ -296,18 +296,25 @@ CREATE TABLE IF NOT EXISTS `shop_collections` (
   `img` varchar(100) COLLATE utf32_bin DEFAULT NULL,
   `up_date` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf32 COLLATE=utf32_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf32 COLLATE=utf32_bin;
 
 --
 -- Dumping data for table `shop_collections`
 --
 
 INSERT INTO `shop_collections` (`id`, `name`, `desc`, `img`, `up_date`) VALUES
-(4, 'Minimal Bedroom Black and White', 'Minimal Bedroom Black and White', 'collections/br4.jpg', '2022-12-16 16:21:19.202575'),
-(5, 'Living Room Modern Black', 'Living Room Modern Black', 'collections/lr4.jpg', '2022-12-16 16:22:07.739561'),
-(6, 'Study Room B&W Modern', 'Study Room B&W Modern', 'collections/st1.webp', '2022-12-16 17:56:21.497094'),
-(7, 'Living Room Minimal White Stone', 'Living Room Minimal White Stone', 'collections/lr6.png', '2022-12-16 17:57:06.662481'),
-(8, 'Minimal Bedroom Modern White', 'Minimal Bedroom Modern White', 'collections/br2.jpg', '2022-12-16 18:01:04.063161');
+(4, 'Minimal Bedroom Design Black and White', 'Minimal Bedroom Design Black and White', 'collections/br4.jpg', '2022-12-16 16:21:19.202575'),
+(5, 'Living Room Design Modern Dark Black', 'Living Room Design Modern Dark Black', 'collections/lr4.jpg', '2022-12-16 16:22:07.739561'),
+(6, 'Study Room Design Black and White Modern', 'Study Room Design Black and White Modern', 'collections/st1.webp', '2022-12-16 17:56:21.497094'),
+(7, 'Living Room Design Minimal White Stone', 'Living Room Design Minimal White Stone', 'collections/lr6.png', '2022-12-16 17:57:06.662481'),
+(8, 'Minimal Bedroom Design Modern White', 'Minimal Bedroom Design Modern White', 'collections/br2.jpg', '2022-12-16 18:01:04.063161'),
+(9, 'Study Design Minimal White and Red', 'Study Design Minimal White and Red', 'collections/st2.jpg', '2022-12-17 10:17:54.118436'),
+(10, 'Living Room Design Minimal White Grey', 'Living Room Design Minimal White Grey', 'collections/lr3.jpg', '2022-12-17 10:18:23.195463'),
+(11, 'Single Chair Study Minimal Black and White', 'Single Chair Study Minimal Black and White', 'collections/lr8.jpg', '2022-12-17 10:36:44.707613'),
+(12, 'Minimal Bedroom Design Modern Off White', 'Minimal Bedroom Design Modern Off White', 'collections/br3.jpg', '2022-12-17 10:37:30.045483'),
+(13, 'Living Room Modern Futuristic Grey White', 'Living Room Modern Futuristic Grey White', 'collections/lr2.jpg', '2022-12-17 10:38:36.308788'),
+(14, 'Simple Living Room Design Grey White', 'Simple Living Room Design Grey White', 'collections/ir1.jpg', '2022-12-17 10:39:30.210778'),
+(15, 'Single Chair Study Minimal White and Green', 'Single Chair Study Minimal White and Green', 'collections/st3.jpg', '2022-12-17 10:40:44.222513');
 
 -- --------------------------------------------------------
 
