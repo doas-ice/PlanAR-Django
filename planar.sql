@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 17, 2022 at 11:42 AM
+-- Generation Time: Dec 17, 2022 at 12:18 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -332,14 +332,15 @@ CREATE TABLE IF NOT EXISTS `shop_contact` (
   KEY `phone` (`phone`(768)),
   KEY `phone_2` (`phone`(768)),
   KEY `phone_3` (`phone`(768))
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf32 COLLATE=utf32_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf32 COLLATE=utf32_bin;
 
 --
 -- Dumping data for table `shop_contact`
 --
 
 INSERT INTO `shop_contact` (`id`, `name`, `email`, `msg`, `phone`) VALUES
-(1, 'User One', 'one@user', 'Message 1 one', '0198389380298');
+(1, 'User One', 'one@user', 'Message 1 one', '0198389380298'),
+(2, 'Mehede Hasan', 'meheda@gamil.com', 'Vary Importanttt Msg', '0088282828');
 
 -- --------------------------------------------------------
 
