@@ -12,7 +12,16 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 def index(request):
-	return render(request, 'shop/index.html')
+	collection = models.Collections.objects.all().order_by('up_date')
+	context = {'collection':collection}
+	if request.method == "POST":
+		con = models.Contact()
+		con.name = request.POST.get('name');
+		con.phone = request.POST.get('phone');
+		con.email = request.POST.get('email');
+		con.msg = request.POST.get('message');
+		con.save()
+	return render(request, 'shop/index.html', context)
 
 def about(request):
 	return render(request, 'shop/about.html')

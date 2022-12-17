@@ -483,19 +483,19 @@ button {
 /** end about section **/
 
 
-/** Our  Glasses section **/
+/** Our  Items Collections section **/
 
-.glasses {
+.itemcollections {
 	background: #fff;
 	margin-top: 90px;
 }
 
-.glasses .titlepage {
+.itemcollections .titlepage {
 	text-align: center;
 	padding-bottom: 60px;
 }
 
-.glasses .titlepage p {
+.itemcollections .titlepage p {
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: 400;
@@ -507,7 +507,7 @@ button {
 	text-transform: initial;
 }
 
-.glasses .glasses_box {
+.itemcollections .itemcollections_box {
 	text-align: center;
 	border: #555556 solid 1px;
 	border-radius: 2px;
@@ -515,25 +515,25 @@ button {
 	margin-bottom: 30px;
 }
 
-.glasses .glasses_box figure {
+.itemcollections .itemcollections_box figure {
 	margin: 0;
 }
 
-.glasses .glasses_box h3 {
+.itemcollections .itemcollections_box h3 {
 	color: #100d0d;
 	font-size: 22px;
 	line-height: 20px;
 	padding: 70px 0px 9px 0px;
 }
 
-.glasses .glasses_box p {
+.itemcollections .itemcollections_box p {
 	color: #2a2a2c;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: 400;
 }
 
-.glasses .read_more {
+.itemcollections .read_more {
 	border: #1a1a1a solid 2px;
 	font-weight: 500;
 	display: block;
@@ -542,7 +542,7 @@ button {
 }
 
 
-/** end Our  Glasses section **/
+/** end Our  Items Collections section **/
 
 
 /** Our shop section **/
@@ -833,7 +833,7 @@ ul.location_icon li a {
 	background: #ffbf52;
 }
 
-.position_head .glasses,
+.position_head .itemcollections,
 .shop {
 	margin-bottom: 90px;
 }
