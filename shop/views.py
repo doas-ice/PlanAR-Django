@@ -23,8 +23,10 @@ def index(request):
 		con.save()
 	return render(request, 'shop/index.html', context)
 
+
 def about(request):
 	return render(request, 'shop/about.html')
+
 
 def collection(request):
 	collection = models.Collections.objects.all().order_by('up_date')
@@ -59,7 +61,6 @@ def login_req(request):
 		user = authenticate(username=uname, password=passwd)
 		if user is not None:
 			login(request, user)
-			messages.info(request, f"You are now logged in as {uname}.")
 			return redirect("index")
 		else:
 			messages.error(request,"Invalid username or password.")

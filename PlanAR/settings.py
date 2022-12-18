@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-iw(afs7%#)h!bf7&rxy96!#3+f7%jc1fh*^e+)u7p6eg-h9fz_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = [
 	'*',
 ]
@@ -157,3 +158,5 @@ DATETIME_INPUT_FORMATS = [
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = ['https://*.ngrok.io','https://*.127.0.0.1']
